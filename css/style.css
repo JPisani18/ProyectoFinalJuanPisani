@@ -85,3 +85,19 @@ aside {
   aside p {
     font-size: 1rem;
     font-family: oswald; }
+
+footer {
+  width: 100%;
+  min-height: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.89); }
+  footer #iconos i {
+    font-size: 2rem;
+    padding: 0 35px;
+    color: #d5ff9f; }
+    @media (max-width: 576px) {
+      footer #iconos i {
+        font-size: 1.5rem; } }
