@@ -48,3 +48,40 @@ header {
               font-size: 1.5rem; } }
     header nav button {
       background-color: #d5ff9f !important; }
+
+main {
+  min-height: 75vh; }
+
+#carrusel h1 {
+  font-size: 2rem;
+  font-family: oswald;
+  text-align: center;
+  color: white; }
+
+section {
+  border-radius: 1%;
+  min-height: 30vh;
+  max-width: 98%;
+  background-color: rgba(191, 238, 129, 0.76);
+  margin: 10px; }
+  section #sect-index h2 {
+    font-size: 2rem;
+    font-family: oswald;
+    text-align: center; }
+  section p {
+    font-size: 1rem;
+    font-family: oswald; }
+
+aside {
+  border-radius: 1%;
+  min-height: 30vh;
+  max-width: 98%;
+  background-color: rgba(191, 238, 129, 0.76);
+  margin: 10px; }
+  aside h2 {
+    font-size: 2rem;
+    font-family: oswald;
+    text-align: center; }
+  aside p {
+    font-size: 1rem;
+    font-family: oswald; }

@@ -1,0 +1,58 @@
+main {
+    min-height: 75vh;   
+}
+
+#carrusel {
+    & h1 {
+        font-size: 2rem;
+            font-family: $fuente-txt;
+            text-align: center;
+            color: $color-txt;
+    }
+}
+
+section {
+    border-radius: 1%;
+    min-height: 30vh;
+    max-width: 98%;
+    background-color: $color-sec;
+    margin: 10px;
+    
+    & #sect-index {
+       
+    
+        & h2 {            
+            font-size: 2rem;
+            font-family: $fuente-txt;
+            text-align: center;
+        }
+
+    }
+
+    & p {
+        font-size: 1rem;
+        font-family: $fuente-txt;
+    }
+
+}
+
+aside {
+    border-radius: 1%;
+    min-height: 30vh;
+    max-width: 98%;
+    background-color: $color-sec;
+    margin: 10px;
+
+    & h2 {            
+        font-size: 2rem;
+        font-family: $fuente-txt;
+        text-align: center;
+    }
+    
+    & p {
+        font-size: 1rem;
+        font-family: $fuente-txt;
+    }
+
+    
+}
