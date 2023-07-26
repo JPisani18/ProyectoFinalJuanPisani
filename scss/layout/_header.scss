@@ -1,0 +1,71 @@
+header {
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color-head-foot;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+
+    & nav {
+        min-width: 100%;
+        min-height: 15vh;
+        
+        & #logo {
+            
+
+            @include tablet {
+                position: relative;
+                left: 100px;
+            }
+        }
+        
+        & #Main-nav {
+            position: relative;
+
+            
+            & ul {
+                @include desktop {
+                    position: absolute;
+                    right: 50px;
+                }
+                
+
+                & li {
+                    list-style-type: none;
+                    
+                    @include desktop {
+                        padding-right: 20px;
+                    }
+                    
+            
+                    & a {
+                            font-size: 1rem;
+                            font-family: $fuente-txt !important;
+                            color: $color-li !important; 
+                            
+                            @include desktop {
+                                font-size: 1.5rem;
+                            }
+                     }
+                       
+                 }
+            }
+        }
+
+        & button {
+            background-color: $color-button !important;
+        }
+          
+        
+      
+        
+    }
+
+    
+}
+
+

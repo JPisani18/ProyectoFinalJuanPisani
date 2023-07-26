@@ -1,0 +1,12 @@
+// queries
+@import './queries/queries';
+// variables
+@import './abstract/variables';
+
+//reset
+@import './base/reset';
+
+//layouts
+@import './layout/header';
+@import './layout/main';
+@import './layout/footer';
