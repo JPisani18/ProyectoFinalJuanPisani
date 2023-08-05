@@ -2,14 +2,30 @@ main {
     min-height: 75vh;   
 }
 
-#carrusel {
-    & h1 {
-        font-size: 2rem;
-            font-family: $fuente-txt;
-            text-align: center;
+// imagénes carrusel y banners
+    .h-ban {
+        font-size: 1.5rem;
+        font-family: $fuente-txt;
+        text-align: center;
+        color: $color-txt;
+        
+        
+
+        @include tablet {
+            font-size: 2.5rem;
+        }
+
+        @include desktop {
+            font-size: 3rem;
+        }
+
+        & a:link, a:visited, a:active {
+            text-decoration:none;
             color: $color-txt;
+        }
     }
-}
+
+// secciones
 
 section {
     border-radius: 1%;
@@ -18,23 +34,38 @@ section {
     background-color: $color-sec;
     margin: 10px;
     
-    & #sect-index {
+   
        
     
-        & h2 {            
+    & h2 {            
             font-size: 2rem;
             font-family: $fuente-txt;
             text-align: center;
-        }
-
     }
 
+  
     & p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: $fuente-txt;
     }
 
+    & .card {
+        background-color: $color-cards;
+      
+       
+    }
+
+    & a:link, a:visited, a:active {
+        text-decoration:none;
+        color: $color-li;
+        background-color: rgba(0, 0, 0, 0.89);
+        border-radius: 3;
+        padding: 2px;
+    }
+
 }
+
+//aside
 
 aside {
     border-radius: 1%;
@@ -50,7 +81,7 @@ aside {
     }
     
     & p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: $fuente-txt;
     }
 

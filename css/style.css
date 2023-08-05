@@ -52,11 +52,20 @@ header {
 main {
   min-height: 75vh; }
 
-#carrusel h1 {
-  font-size: 2rem;
+.h-ban {
+  font-size: 1.5rem;
   font-family: oswald;
   text-align: center;
   color: white; }
+  @media (min-width: 768px) {
+    .h-ban {
+      font-size: 2.5rem; } }
+  @media (min-width: 992px) {
+    .h-ban {
+      font-size: 3rem; } }
+  .h-ban a:link, .h-ban a:visited, .h-ban a:active {
+    text-decoration: none;
+    color: white; }
 
 section {
   border-radius: 1%;
@@ -64,13 +73,21 @@ section {
   max-width: 98%;
   background-color: rgba(191, 238, 129, 0.76);
   margin: 10px; }
-  section #sect-index h2 {
+  section h2 {
     font-size: 2rem;
     font-family: oswald;
     text-align: center; }
   section p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: oswald; }
+  section .card {
+    background-color: rgba(218, 233, 185, 0.76); }
+  section a:link, section a:visited, section a:active {
+    text-decoration: none;
+    color: #d5ff9f;
+    background-color: rgba(0, 0, 0, 0.89);
+    border-radius: 3;
+    padding: 2px; }
 
 aside {
   border-radius: 1%;
@@ -83,7 +100,7 @@ aside {
     font-family: oswald;
     text-align: center; }
   aside p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: oswald; }
 
 footer {
@@ -93,7 +110,9 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.89); }
+  background-color: rgba(0, 0, 0, 0.89);
+  position: relative;
+  bottom: 0; }
   footer #iconos i {
     font-size: 2rem;
     padding: 0 35px;
